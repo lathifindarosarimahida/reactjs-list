@@ -1,0 +1,37 @@
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(tanam.jpg);
+    height:100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.title{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.title h1{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+.row{
+    color: white;
+    font-family: raleway;
+    color: white;
+    margin-bottom: -12px;
+    margin-top: 100px;
+}
+
+
+@media (max-width:500px)
+
